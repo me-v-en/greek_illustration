@@ -35,11 +35,11 @@ img{
     position: relative;
     margin-top: 220px;
     margin-left:150px;
-    width :500px;
+    width :550px;
     position: absolute;
     color : rgb(2, 22, 19);
     font-family: 'Merriweather', serif;
-    font-size: 40px;
+    font-size: 35px;
     text-align: left;    
     transition: font-size .5s;  
     -webkit-transition:font-size .5s;      

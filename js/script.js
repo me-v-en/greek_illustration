@@ -11,10 +11,10 @@ function writeText(target, message, delay, i) {
     
     if (i < message.length) {
         if (message[i]==='£'){
-            document.querySelector(target).append('<br/>');
+            $(target).html($(target).html()+'<br/>');
         }
         else{
-            document.querySelector(target).append(message[i]);
+            $(target).html($(target).html()+message[i]);
         }
         
         i++;
