@@ -1,10 +1,7 @@
-html,body{
+body{
     --color-main :#1e3799 ;
     --color-sec : #eb2f06;
     background-color: rgb(236, 213, 195) ;
-    height: 100%;
-    overflow-y:hidden;
-    
 }
 #full{
     width: 300px;
@@ -23,35 +20,15 @@ img{
     width:400px ;
     height: 400px;
 }
-#full:hover>#bas{
+#full:hover>#haut{
     transform: rotate(20deg);
     transform-origin: bottom left;
-    transition-duration: .5s;    
-    animation: speakBas .8s  ease-in-out .3s infinite;
+    transition-duration: .5s;
 }
-#full:hover>#haut{
+#full:hover>#bas{
     transform: rotate(-20deg);
     transition-duration: .5s;    
-    transform-origin: bottom left;    
-    animation: speakHaut .8s  ease-in-out .3s infinite;
-}
-@keyframes speakHaut{
-    0%{}
-    10%{transform: rotate(-21deg);}
-    30%{transform: rotate(-19deg);}
-    50%{transform: rotate(-22deg);}
-    75%{transform: rotate(-18deg);}
-    100%{transform: rotate(-20deg);}
-    100%{}
-}
-@keyframes speakBas{
-    0%{}
-    10%{transform: rotate(21deg);}
-    30%{transform: rotate(19deg);}
-    50%{transform: rotate(22deg);}
-    76%{transform: rotate(18deg);}
-    100%{transform: rotate(20deg);}
-    100%{}
+    transform-origin: bottom left;
 }
 #text{
     /* background-color: #eb2f06; */
