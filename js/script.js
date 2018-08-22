@@ -1,8 +1,3 @@
-var full = document.querySelector('#full')
-var haut = document.querySelector('#haut')
-var bas = document.querySelector('#bas')
-var text = document.querySelector('#text')
-var name = document.querySelector('#name')
 var loop;
 
 setTimeout(function(){writeText("#name", "Caligula", 50, 0)},1000);
